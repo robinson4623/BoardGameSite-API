@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ID="6255aee5dbed9078f98c8610"
-TOKEN="36bb4b13ce5350ade6824d233291fe45"
+ID="625753b811f873f6e3608fa0"
+TOKEN="41bb3821a195de9f69121829a2fad82d"
 NAME="Updated Game Name"
 GAMETYPE="Worker Placement"
 NUMOFPLAYERS="2-5"

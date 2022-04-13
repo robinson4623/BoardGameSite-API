@@ -87,7 +87,7 @@ router.patch('/games/:id', requireToken, removeBlanks, (req, res, next) => {
       requireOwnership(req, game);
 
       // pass the result of Mongoose's `.update` to the next `.then`
-      console.log(game);
+      //console.log(game);
       return game.updateOne(req.body.games);
     })
     // if that succeeded, return 204 and no JSON
