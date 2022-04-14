@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TOKEN="36bb4b13ce5350ade6824d233291fe45"
+TOKEN="ad959f063c9c433f0487f27cfb9d2eec"
 
 API="http://localhost:4741"
 URL_PATH="/games"

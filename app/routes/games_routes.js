@@ -30,11 +30,14 @@ const router = express.Router();
 // INDEX
 // GET /examples
 router.get('/games', requireToken, (req, res, next) => {
-  Games.find()
+  const userId = req.user._id;
+
+  Games.find({ owner: userId })
     .then(games => {
       // `examples` will be an array of Mongoose documents
       // we want to convert each one to a POJO, so we use `.map` to
       // apply `.toObject` to each one
+
       return games.map(games => games.toObject());
     })
     // respond with status 200 and JSON of the examples
