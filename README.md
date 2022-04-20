@@ -10,6 +10,8 @@ The deployed version of this application can be found at: [BoardGameTracker](htt
 
 The wireframe for this application can be viewed here: [Imgur](https://i.imgur.com/LbgMV5P.png)
 
+ERD can be viewed here:  [Imgur](https://i.imgur.com/7v3fQ9u.png)
+
 ## About
 
 My name is Kelly and I am an aspiring developer focused on building user-friendly, and helpful applications. Feel free to fork and clone your own copy to make it your own!
